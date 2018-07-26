@@ -4,7 +4,7 @@ class SessionsController < ApplicationController
 
   def create
     if params[:name].blank?
-      redirect_to new_sesssions_path
+      redirect_to login_path
     binding.pry
   end
 
