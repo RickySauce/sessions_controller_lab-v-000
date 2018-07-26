@@ -12,6 +12,7 @@ class SessionsController < ApplicationController
   end
 
   def destroy
+    binding.pry
     session[:name].delete unless session[:name].nil?
   end
 
