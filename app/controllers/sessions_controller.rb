@@ -8,7 +8,6 @@ class SessionsController < ApplicationController
     else
       session[:name] = params[:name]
     end
-    binding.pry
   end
 
 end
